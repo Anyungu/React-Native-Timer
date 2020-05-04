@@ -10,5 +10,4 @@ A countdown timer MM:SS Timer
   
 # Screenshots
 
-![Image of Yaktocat] 
-(/assets/images/bg.jpg)
+![Counting Image](assets/screenshots/counting.jpg)
