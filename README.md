@@ -10,4 +10,4 @@ A countdown timer MM:SS Timer
   
 # Screenshots
 
-![Counting Image](assets/screenshots/counting.png)
+![Counting Image](assets/screenshots/counting.png)    ![Counting Image](assets/screenshots/timesup.png)
