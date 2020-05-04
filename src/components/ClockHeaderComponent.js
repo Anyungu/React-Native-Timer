@@ -12,6 +12,7 @@ import {
     Text
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import { moderateScale } from 'react-native-size-matters';
 
 
 
@@ -94,7 +95,7 @@ const styles = StyleSheet.create({
     },
     countDownText: {
         color: 'black',
-        fontSize: height * 0.03
+        fontSize: moderateScale(19)
     },
     minunteTextInputContaner: {
         borderColor: '#ef473a',
@@ -105,7 +106,7 @@ const styles = StyleSheet.create({
     minuteTextinputStyle: {
 
         color: '#cb2d3e',
-        fontSize: height * 0.03,
+        fontSize: moderateScale(19),
         paddingVertical: height * 0.0125,
         fontFamily: "Montserrat-Light"
 
@@ -118,7 +119,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     startButtonText: {
-        fontSize: height * 0.03,
+        fontSize: moderateScale(19),
         color: 'white',
         fontFamily: "Montserrat-Light"
     }

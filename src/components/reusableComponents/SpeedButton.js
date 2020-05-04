@@ -9,6 +9,7 @@ import {
     Text
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import {moderateScale} from 'react-native-size-matters';
 
 
 
@@ -52,7 +53,7 @@ const {
 
 const styles = StyleSheet.create({
     speedButtonText: {
-        fontSize: height * 0.025,
+        fontSize: moderateScale(15.833),
         fontFamily: "Montserrat-Light"
     },
     speedButton: {

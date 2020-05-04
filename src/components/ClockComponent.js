@@ -11,6 +11,7 @@ import {
     TouchableOpacity
 } from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
+import { moderateScale } from 'react-native-size-matters';
 
 
 
@@ -89,7 +90,7 @@ class ClockComponent extends Component {
                     <AntDesign
                         name = {this.props.iconName}
                         color = "#cb2d3e"
-                        size = {height * 0.065}
+                        size = {moderateScale(41.17)}
                         />
 
                     </TouchableOpacity>
@@ -115,7 +116,7 @@ const styles = StyleSheet.create({
     },
     infoText: {
         color: '#cb2d3e',
-        fontSize: height * 0.03,
+        fontSize: moderateScale(19),
         paddingTop: height * 0.055,
         fontFamily: "Montserrat-LightItalic",
         textAlign: 'center'
@@ -128,17 +129,17 @@ const styles = StyleSheet.create({
         width: width * 0.9
     },
     mmTextStyle: {
-        fontSize: height * 0.15,
+        fontSize: moderateScale(95),
         fontFamily: "Montserrat-Medium" ,
        
     },
     ssTextStyle: {
-        fontSize: height * 0.15,
+        fontSize: moderateScale(95),
         fontFamily: "Montserrat-Medium" ,
       
     },
     colonTextStyle: {
-        fontSize: height * 0.15,
+        fontSize: moderateScale(95),
         fontFamily: "Montserrat-Medium",
         paddingBottom: height * 0.025,
       
