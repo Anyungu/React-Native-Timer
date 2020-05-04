@@ -11,3 +11,7 @@ A countdown timer MM:SS Timer
 # Screenshots
 
 ![Counting Image](assets/screenshots/counting.png)  ![Time's Up Image](assets/screenshots/timesup.png)  ![20 Seconds Image](assets/screenshots/20seconds.png)
+
+
+
+![Half Image](assets/screenshots/halfway.png)  ![Plain Image](assets/screenshots/plain.png)  ![paused Image](assets/screenshots/paused.png)
